@@ -1,6 +1,6 @@
 import json
-from BasicPythonPractice.Person import Person
-from BasicPythonPractice.Product import Product
+from ParentDirectory.Person import Person
+from ParentDirectory.Product import Product
 class RulesEngine():
     def loadrules(self):
         with open('C:/Users/Anitha/Desktop/visio/rules.json') as json_file:
