@@ -1,0 +1,83 @@
+{
+  "rules": {
+  
+			"rule1": {
+				"enable" : "Y" ,
+				"person": {
+					"state":"Florida",
+					"productOfferred" : "N",
+					"creditCheck": "N",
+					"creditScore": {
+						"value": 0,
+						"limit": "NA"
+					}
+				},		  
+				"product":{
+					   "name": "ALL",
+						"interestRate":{
+							"initialRate": "None"
+						}
+				}
+			
+			},
+			"rule2": {
+				"enable" : "Y" ,
+				"person": {
+					"state": "ALL",
+					"productOfferred" : "Y",
+					"creditCheck": "Y",
+					"creditScore": {
+						"value": 720,
+						"limit": "high"
+					}
+				},		  
+				"product":{
+					   "name": "ALL",
+						"interestRate":{
+							"initialRate": 5.0,
+							"interestPercent": 0.3,
+							"change": "decrease"
+						}
+				}
+			},
+			
+			"rule3": {
+				"enable" : "Y" ,
+				"person": {
+					"state":"ALL",
+					"productOfferred" : "Y",
+					"creditCheck": "Y",
+					"creditScore": {
+						"value": 720,
+						"limit": "low"
+					}
+				},		  
+				"product":{
+					   "name": "ALL",
+						"interestRate":{
+							"initialRate": 5.0,
+							"interestPercent": 0.5,
+							"change": "increase"
+						}
+				}
+			
+			},
+			"rule4": {
+				"enable" : "Y" ,
+				"person": {
+					"state":"ALL",
+					"productOfferred" : "Y",
+					"creditCheck": "N"
+				},		  
+				"product":{
+					   "name": "7-1 ARM",
+						"interestRate":{
+							"initialRate": 5.0,
+							"interestPercent": 0.5,
+							"change": "increase"
+						}
+				}
+			
+			}
+	}
+}
