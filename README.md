@@ -8,4 +8,5 @@
 4.rules.json
 
 -->Make sure the rules.json file is in the correct path in the RulesEngine.py
+-->Make sure to import the correct path of Person.py and Product.py in to the RulesEngine.py
 -->To see the results of RulesEngine business request scenario,execute  RulesEngine.py 
