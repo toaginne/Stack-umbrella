@@ -1,9 +1,9 @@
 import json
-from ParentDirectory.Person import Person
-from ParentDirectory.Product import Product
+from BusinessRulesEngine.Person import Person
+from BusinessRulesEngine.Product import Product
 class RulesEngine():
     def loadrules(self):
-        with open('C:/Users/Anitha/Desktop/visio/rules.json') as json_file:
+        with open('C:/Users/kalyan/Desktop/visio/rules.json') as json_file:
             rules = json.load(json_file)
             print(rules)
             mydict = rules['rules']
